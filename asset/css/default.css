@@ -111,39 +111,46 @@ form input:focus {
 
 /* line */
 .line {
-    margin: 15px auto;
-    border-radius: 8px;
-    height: 8px !important;
-    width: 15rem !important;
-    background-color: #0048AE;
+    width: 50px;
+    height: 4px;
+    background-color: rgba(255, 255, 0, 0.745);
+    border-radius: 6px;
+    margin: 28px 5px 0 0;
 }
-
-.form .line .color {
-    width: 50%;
-    direction: rtl;
-    border-radius: 8px 0 0px 8px;
-    background-color: #D7D154;
+.line_left {
+    margin-left: 15px;
 }
-
+.line_b {
+    background-color: #0909c5;
+}
+.password_s {
+    height: auto !important;
+}
+.password_s p {
+    font-size: 14px;
+}
 /* end-line */
 /* btn */
 .acount {
-    border: 1px solid gold;
     color: black;
     height: 45px;
+    width: 11rem !important;
+    border: 1px solid gold;
     background: linear-gradient(90deg, rgba(255, 194, 0, 1) 16%, rgba(224, 123, 13, 1) 96%);
 
 }
-
 .button {
     display: flex;
     justify-content: center;
-    gap: 20px !important;
+    gap: 3px !important;
+    margin-top: 20px;
 }
-
+h1{
+    margin-top: 3rem;
+}
 .btn {
     cursor: pointer;
-    border-radius: 40px;
+    border-radius: 13px;
     font-size: 13px;
     padding: 10px 20px;
     font-weight: bold;
@@ -161,5 +168,22 @@ form input:focus {
         background: rgb(224, 123, 13);
         background: linear-gradient(90deg, rgba(224, 123, 13, 1) 20%, rgba(255, 194, 0, 1) 73%);
 }
-
+.circle_1 {
+    width: 338px;
+    height: 300px;
+    bottom: -74px;
+    border-radius: 100%;
+    position: absolute;
+    border: 40px solid #015be8;
+    left: -168px;
+}
+.circle_2 {
+    right: 0px;
+    width: 300px;
+    height: 300px;
+    bottom: 532px;
+    position: absolute;
+    border-radius: 0 0 0 300px;
+    background-color: rgb(189, 215, 234);
+}
 /* end-btn */

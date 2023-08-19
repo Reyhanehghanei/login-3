@@ -27,7 +27,7 @@ img {
     height: 70%;
     max-width: 100%;
 }
-
+ 
 .container {
     top: 50%;
     left: 50%;
@@ -84,6 +84,7 @@ img {
     background-size: 20px;
     border: 1px solid gray;
     padding: 17px 17px 17px 40px;
+    
     background-repeat: no-repeat;
     background-position: 14px 14px;
     background-image: url(../images/person.svg);
@@ -91,6 +92,9 @@ img {
 
 form input:focus {
     border: 3px solid rgb(64, 51, 77);
+}
+::-webkit-input-placeholder {
+    color: grey;
 }
 
 .email {
